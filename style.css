@@ -1,0 +1,33 @@
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: #45a049; /* ホバー時の色 */
+}
+button:disabled {
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+}
+
+.container {
+  display: flex;
+  justify-content: center; /* 横方向中央 */
+  align-items: center;     /* 縦方向中央 */
+  height: 100vh;           /* 画面全体の高さ */
+}
+.box {
+  padding: 20px;
+  text-align: center;
+}
+.result{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
